@@ -12,7 +12,7 @@ using namespace std;
     return palindrome(s,start+1,end-1);
  }
 int main() {
-    string s="mamiimami";
+    string s="mamiimam";
     cout<<palindrome(s,0,s.size()-1);
     return 0;
 }
